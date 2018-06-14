@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+.clock {
+	display: flex;
+	position: relative;
+	align-items: center;
+	width: 490px;
+	height: 280px;
+	padding: 6px;
+	background-color:green; 
+	background-size: cover;
+	
+	>section {
+		width: 100px;
+		padding: 10px;
+	}
+	
+}
+
+.digital-clock, .date {
+	//line-height: 0;
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+	align-items: center;
+	text-shadow: 3px 3px #9ac4dc;
+}
+	
+.alarm{	
+	padding-top: 10px;
+	
+}
